@@ -1,0 +1,56 @@
+/*------------------------------------ Imports */
+@font-face {
+    src: url(../fonts/Avenir.ttc);
+    font-family: "Avenir";
+}
+@font-face {
+    src: url(../fonts/FontAwesome.otf);
+    font-family: "FontAwesome";
+}
+
+/*------------------------------------ varibles */
+:root {
+    --color-blue: #D4EFFC;
+    --color-red: #D71635;
+    --color-gray: #808183;
+    --color-black: #000000;
+
+    --font-type: "Avenir";
+    --font-some: "FontAwesome", san-serif;
+    --font-parah: 1.5rem;
+
+    --font-h1: 3rem;
+}
+/*------------------------------------ Global */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+body{
+    background: var(--color-blue);
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+h1{
+    font-size: var(--font-h1);
+    font-family: var(--font-type);
+    font-style: oblique;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+
+.social{
+    font-family: var(--font-some);
+    font-size: 2rem;
+    color: var(--color-black);
+}
+/*------------------------------------ header */
+header{
+    padding: 6rem 0 0 0;
+}
+header img{
+    width: 27.5rem;
+}
