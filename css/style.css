@@ -41,12 +41,6 @@ h1{
     text-transform: uppercase;
 }
 
-
-.social{
-    font-family: var(--font-some);
-    font-size: 2rem;
-    color: var(--color-black);
-}
 /*------------------------------------ header */
 header{
     padding: 6rem 0 0 0;
@@ -54,3 +48,24 @@ header{
 header img{
     width: 27.5rem;
 }
+/*------------------------------------ content / main */
+.social,.price{
+    font-family: var(--font-some);
+    font-size: 2rem;
+}
+.social{
+    color: var(--color-black);
+    margin: 0 1.5rem 0 0;
+}
+    .social:hover{
+        color: var(--color-red);
+    }
+.price{
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--color-red);
+}
+    .price:hover{
+        color: var(--color-black);
+    }
